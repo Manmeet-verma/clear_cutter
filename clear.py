@@ -6,12 +6,12 @@ SOURCE_FOLDER =r"C:\Users\Raman\Downloads"
 
 # File type categories
 FILE_TYPES = {
-    "Images": [".png", ".jpg", ".jpeg"],
-    "Videos": [".mp4"],
-    "Audio": [".mp3"],
+    "Images": [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp"],
+    "Videos": [".mp4", ".mkv", ".avi", ".mov", ".wmv"],
+    "Audio": [".mp3", ".wav", ".aac", ".flac"],
     "Documents": [".pdf", ".docx", ".doc", ".txt", ".pptx", ".xlsx"],
-    "Archives": [".zip",],
-    "Programs": [".exe"]
+    "Archives": [".zip", ".rar", ".7z", ".tar"],
+    "Programs": [".exe", ".msi"]
 }
 
 def organize_files(folder_path):
